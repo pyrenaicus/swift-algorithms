@@ -1,6 +1,7 @@
 // The Swift Programming Language
 // https://docs.swift.org/swift-book
 // Linear Search Implementation in Swift
+// Time complexity O(n)
 
 
 func linearSearch(arr: [Int], num: Int) -> Bool {

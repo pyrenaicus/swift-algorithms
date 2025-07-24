@@ -17,6 +17,24 @@
             "name": "Release linearSearch (linear-search)",
             "program": "${workspaceFolder:swift-algorithms}/linear-search/.build/release/linearSearch",
             "preLaunchTask": "swift: Build Release linearSearch (linear-search)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-algorithms}/binary-search",
+            "name": "Debug binarySearch (binary-search)",
+            "program": "${workspaceFolder:swift-algorithms}/binary-search/.build/debug/binarySearch",
+            "preLaunchTask": "swift: Build Debug binarySearch (binary-search)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-algorithms}/binary-search",
+            "name": "Release binarySearch (binary-search)",
+            "program": "${workspaceFolder:swift-algorithms}/binary-search/.build/release/binarySearch",
+            "preLaunchTask": "swift: Build Release binarySearch (binary-search)"
         }
     ]
 }
