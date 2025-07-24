@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-algorithms}/linear-search",
+            "name": "Debug linearSearch (linear-search)",
+            "program": "${workspaceFolder:swift-algorithms}/linear-search/.build/debug/linearSearch",
+            "preLaunchTask": "swift: Build Debug linearSearch (linear-search)"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:swift-algorithms}/linear-search",
+            "name": "Release linearSearch (linear-search)",
+            "program": "${workspaceFolder:swift-algorithms}/linear-search/.build/release/linearSearch",
+            "preLaunchTask": "swift: Build Release linearSearch (linear-search)"
+        }
+    ]
+}
